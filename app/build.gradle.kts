@@ -37,7 +37,7 @@ android {
 		targetSdk = 34
 		versionCode = 47
 		versionName = "1.0.47"
-		applicationId = "ws.xsoh.etar"
+		applicationId = "org.calyxos.etar"
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 	}
 
