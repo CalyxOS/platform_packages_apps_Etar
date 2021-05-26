@@ -19,7 +19,7 @@ android {
         targetSdk 34
         versionCode 36
         versionName "1.0.36"
-        applicationId "ws.xsoh.etar"
+        applicationId "org.calyxos.etar"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 

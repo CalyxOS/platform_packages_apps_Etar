@@ -47,7 +47,7 @@ android_app {
     kotlincflags: ["-Xjvm-default=enable"],
 
     required: [
-        "org.lineageos.etar.allowlist"
+        "org.calyxos.etar.allowlist"
     ],
 }
 
@@ -71,9 +71,9 @@ android_test {
 }
 
 prebuilt_etc {
-    name: "org.lineageos.etar.allowlist",
+    name: "org.calyxos.etar.allowlist",
     product_specific: true,
     sub_dir: "sysconfig",
-    src: "org.lineageos.etar.allowlist.xml",
+    src: "org.calyxos.etar.allowlist.xml",
     filename_from_src: true,
 }
