@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "263ee102_12f552fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-22T21:02:19Z",
+      "side": 1,
+      "message": "There\u0027s `ws.xsoh.etar.R` imports in the source but it gets handled fine without changes.",
+      "revId": "cc622c9f18bd2eb31d2f2aa544af3746a17db255",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
