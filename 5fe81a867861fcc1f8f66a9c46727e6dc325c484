@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b87c44e9_67a8e11c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-22T21:04:27Z",
+      "side": 1,
+      "message": "https://editor.mergely.com/Aa0zoGNb/\n\nLeft: Etar.apk from 11 $OUT\nRight: EtarPrebuilt.apk from 12 $OUT, which matches gradle apk",
+      "revId": "5fe81a867861fcc1f8f66a9c46727e6dc325c484",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
