@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebff6603_9c21403f",
+        "filename": "build.gradle",
+        "patchSetId": 1
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-03-15T15:31:50Z",
+      "side": 1,
+      "message": "Not sure about this, we changed it downstream in I3fcf1d1ddb06416d5af02ee3776dbd84682e441a",
+      "range": {
+        "startLine": 179,
+        "startChar": 0,
+        "endLine": 182,
+        "endChar": 25
+      },
+      "revId": "0db3426c9bba911e6a198cd8f515fe892341ceb4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
