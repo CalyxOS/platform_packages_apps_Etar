@@ -22,6 +22,30 @@
       },
       "revId": "0db3426c9bba911e6a198cd8f515fe892341ceb4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8008a823_4cb629c8",
+        "filename": "build.gradle",
+        "patchSetId": 1
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-15T15:33:16Z",
+      "side": 1,
+      "message": "Looks ok.\n\nI think AOSP versionName might be 12 but this is fine.",
+      "parentUuid": "ebff6603_9c21403f",
+      "range": {
+        "startLine": 179,
+        "startChar": 0,
+        "endLine": 182,
+        "endChar": 25
+      },
+      "revId": "0db3426c9bba911e6a198cd8f515fe892341ceb4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
