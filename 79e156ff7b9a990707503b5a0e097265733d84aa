@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "820dc626_dff6dd0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-06-27T16:22:18Z",
+      "side": 1,
+      "message": "This currently doesn\u0027t bugs user to allow it which is not something I like. I want user to be reminded that this needs to be enabled in order to get the best UX. I am thinking to show a info/warning button in toolbar which will trigger an alert dialog prompting users to allow it.",
+      "revId": "79e156ff7b9a990707503b5a0e097265733d84aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
