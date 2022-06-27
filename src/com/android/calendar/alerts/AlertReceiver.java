@@ -122,20 +122,24 @@ public class AlertReceiver extends BroadcastReceiver {
      */
     public static void beginStartingService(Context context, Intent intent) {
         synchronized (mStartingServiceSync) {
+            PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+
             if (mStartingService == null) {
-                PowerManager pm =
-                    (PowerManager)context.getSystemService(Context.POWER_SERVICE);
                 mStartingService = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
                         "Calendar:StartingAlertService");
                 mStartingService.setReferenceCounted(false);
             }
             mStartingService.acquire();
-            if (Utils.isOreoOrLater()) {
-                context.startForegroundService(intent);
-            } else {
-                context.startService(intent);
-            }
 
+            if (pm.isIgnoringBatteryOptimizations(context.getPackageName())) {
+                if (Utils.isOreoOrLater()) {
+                    context.startForegroundService(intent);
+                } else {
+                    context.startService(intent);
+                }
+            } else {
+                Log.d(TAG, "Battery optimizations are not disabled");
+            }
         }
     }
 
