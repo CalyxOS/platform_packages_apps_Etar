@@ -37,4 +37,17 @@ android_app {
         "--rename-manifest-package",
         "org.calyxos.etar",
     ],
+
+    required: [
+        "org.calyxos.etar.allowlist"
+    ],
 }
+
+prebuilt_etc {
+    name: "org.calyxos.etar.allowlist",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "org.calyxos.etar.allowlist.xml",
+    filename_from_src: true,
+}
+
