@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bb0e69a_1efc8a4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-28T12:47:15Z",
+      "side": 1,
+      "message": "We can ship this here and in Lineage, and wait for upstream to review the code change and pull that in via a merge.",
+      "revId": "93e5f667f2fc962ff83f83193262ddaa156dd03d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
