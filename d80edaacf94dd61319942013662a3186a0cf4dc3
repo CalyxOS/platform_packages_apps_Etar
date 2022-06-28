@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ffc59d3_8b44e32a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-28T20:11:42Z",
+      "side": 1,
+      "message": "To be pulled in through upstream via lineage.\n\nLeave this open though, if you abandon gerrit won\u0027t like it when we do eventually merge it.",
+      "revId": "d80edaacf94dd61319942013662a3186a0cf4dc3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
