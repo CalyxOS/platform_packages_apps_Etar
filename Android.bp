@@ -60,6 +60,8 @@ android_test {
         "android.test.runner",
     ],
 
+    kotlincflags: ["-Xjvm-default=enable"],
+
     certificate: "platform",
 
     instrumentation_for: "Etar",
