@@ -224,7 +224,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="org.lineageos.etar.androidx-startup"
+            android:authorities="org.calyxos.etar.androidx-startup"
             android:exported="false"
             tools:replace="android:authorities" />
 
