@@ -94,7 +94,7 @@
             <meta-data android:name="android.app.shortcuts"
                 android:resource="@xml/shortcuts" />
 
-            <meta-data android:name="org.lineageos.etar.dynamic_icons"
+            <meta-data android:name="org.calyxos.etar.dynamic_icons"
                 android:resource="@array/calendar_icons_dynamic" />
 
         </activity>
