@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cf4e845_b4729e2f",
+        "filename": "app/build.gradle",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-25T21:11:13Z",
+      "side": 1,
+      "message": "For a moment here I thought that the `targetSdk` got bumped to U.",
+      "revId": "ae0102991a3d92e246e6bc708c32addcc28f3397",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
