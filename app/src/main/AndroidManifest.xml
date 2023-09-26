@@ -19,7 +19,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ws.xsoh.etar"
+    package="org.calyxos.etar"
     android:installLocation="auto">
 
     <!-- Android Studio will complain about not being able to
