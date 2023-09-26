@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23f69dcf_18774c44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-26T19:56:11Z",
+      "side": 1,
+      "message": "Still can\u0027t install Etar from F-Droid when upgrading, even with `adb shell pm clear`\n\n```\n$ adb shell pm dump org.calyxos.etar | rg -i ws.xsoh\n  Permission [ws.xsoh.etar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (7b12df5):\n    perm\u003dPermissionInfo{2ef678a ws.xsoh.etar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}\n```\n\nFresh installs are fine, though.",
+      "revId": "321f95b20744c41e1a295e4b13ad0e163f92e347",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
