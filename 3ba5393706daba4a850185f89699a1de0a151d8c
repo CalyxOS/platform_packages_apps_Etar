@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c07b3476_94f8e3b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-05T17:45:06Z",
+      "side": 1,
+      "message": "Depends on merge, 20465: Merge remote-tracking branch \u0027lineage/lineage-20.0\u0027 into staging/android13_merge-lineage-20.0 | https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Etar/+/20465",
+      "revId": "3ba5393706daba4a850185f89699a1de0a151d8c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
