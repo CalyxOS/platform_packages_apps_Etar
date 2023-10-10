@@ -34,6 +34,24 @@
       "parentUuid": "3cc6ce88_e932dbae",
       "revId": "9728556f1a83b559fca00bc6fc13afed6ec80598",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f67396bc_69394fde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-10T23:29:00Z",
+      "side": 1,
+      "message": "Let\u0027s pull in https://github.com/Etar-Group/Etar-Calendar/pull/1472 when merged.",
+      "parentUuid": "8d95acd7_e509b32e",
+      "revId": "9728556f1a83b559fca00bc6fc13afed6ec80598",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
