@@ -16,6 +16,24 @@
       "message": "Could also try sdk_version: 33",
       "revId": "9728556f1a83b559fca00bc6fc13afed6ec80598",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d95acd7_e509b32e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-10T23:28:41Z",
+      "side": 1,
+      "message": "Unfortunately, won\u0027t work - too many AOSP libs here that are \"current\" 😞",
+      "parentUuid": "3cc6ce88_e932dbae",
+      "revId": "9728556f1a83b559fca00bc6fc13afed6ec80598",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
