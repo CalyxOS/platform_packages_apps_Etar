@@ -16,9 +16,6 @@
 
 package com.android.calendar.alerts;
 
-import static android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC;
-import static android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED;
-
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -51,7 +48,6 @@ import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
-import androidx.core.app.ServiceCompat;
 import androidx.core.content.ContextCompat;
 
 import com.android.calendar.Utils;
@@ -928,23 +924,14 @@ public class AlertService extends Service {
         if (intent != null) {
 
             if (Utils.isOreoOrLater()) {
+
                 createChannels(this);
                 Notification notification = new NotificationCompat.Builder(this, FOREGROUND_CHANNEL_ID)
                         .setContentTitle(getString(R.string.foreground_notification_title))
                         .setSmallIcon(R.drawable.stat_notify_calendar)
                         .setShowWhen(false)
                         .build();
-                if (Utils.isQOrLater()) {
-                    int serviceType;
-                    if (Utils.isUpsideDownCakeOrLater()) {
-                        serviceType = FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED;
-                    } else {
-                        serviceType = FOREGROUND_SERVICE_TYPE_DATA_SYNC;
-                    }
-                    ServiceCompat.startForeground(this, 1337, notification, serviceType);
-                } else {
-                    startForeground(1337, notification);
-                }
+                startForeground(1337, notification);
             }
 
             Message msg = mServiceHandler.obtainMessage();
