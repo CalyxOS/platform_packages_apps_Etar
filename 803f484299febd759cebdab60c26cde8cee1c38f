@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e27e2905_37a58086",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-08T19:57:48Z",
+      "side": 1,
+      "message": "Added an offline calendar and an event with a reminder. The reminder went off. Swiped around in the different views. Looks fine to me.\n\nDid not build with gradle, just as part of AOSP.",
+      "revId": "803f484299febd759cebdab60c26cde8cee1c38f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
