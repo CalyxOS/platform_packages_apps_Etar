@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3719a830_519f0f2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-09T16:47:04Z",
+      "side": 1,
+      "message": "Needs revert of https://review.lineageos.org/c/LineageOS/android_packages_apps_Etar/+/373451/1, then it works.\n\nI tested reminders by creating an event in 11 minutes with reminder in 10, swiping away Etar, running `adb shell cmd deviceidle force-idle deep`, and turning off the screen. Reminder still happened, so I suspect it would be fine after an extended time, too.",
+      "revId": "1fb36779e7623d5ec58606bdba4efddcee3cf405",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
