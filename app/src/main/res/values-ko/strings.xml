@@ -87,7 +87,7 @@
     <string name="privacy_label">공개 설정</string>
     <string name="reminders_label">알림 추가</string>
     <string name="no_syncable_calendars">캘린더 없음</string>
-    <string name="add_calendar">캘린더 추가</string>
+    <string name="no_calendars_found">일정을 추가하려면 먼저 기기에 하나 이상의 캘린더를 추가해야 합니다.</string>
     <string name="view_event_calendar_label">캘린더:</string>
     <string name="view_event_organizer_label">주최자:</string>
     <string name="choose_event_color_label">일정 색상 선택</string>
@@ -307,6 +307,7 @@
     <string name="preferences_calendar_info_category">캘린더 정보</string>
     <string name="preferences_calendar_color">색상</string>
     <string name="preferences_calendar_visible">일정 표시</string>
+    <string name="preferences_manage_notifications">알림 관리</string>
     <string name="preferences_calendar_synchronize">이 캘린더 동기화</string>
     <string name="preferences_calendar_color_warning_title">주의</string>
     <string name="preferences_calendar_color_warning_message">변경한 색상은 캘린더를 다시 동기화하는 중에 초기화될 수 있습니다.\n\nDAVx⁵의 \'캘린더 색상 관리\'를 비활성화하여 색상 초기화를 방지할 수 있습니다.</string>
@@ -329,4 +330,6 @@
     <string name="preferences_menu_about">캘린더 정보</string>
     <string name="offline_account_name">오프라인 캘린더</string>
     <string name="after_start_of_event">일정 시작 후</string>
+    <string name="preferences_do_not_check_battery_optimization">배터리 최적화 확인 안함</string>
+    <string name="calendars">캘린더</string>
 </resources>

@@ -238,7 +238,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
     protected void onNewIntent(Intent intent) {
         String action = intent.getAction();
         if (DEBUG)
-            Log.d(TAG, "New intent received " + intent.toString());
+            Log.d(TAG, "New intent received " + intent);
         // Don't change the date if we're just returning to the app's home
         if (Intent.ACTION_VIEW.equals(action)
                 && !intent.getBooleanExtra(Utils.INTENT_KEY_HOME, false)) {
@@ -264,11 +264,11 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         // This needs to be created before setContentView
         mController = CalendarController.getInstance(this);
 
-        // Create notification channel
-        AlertService.createChannels(this);
-
         // Check and ask for most needed permissions
         checkAppPermissions();
+
+        // Create notification channels
+        AlertService.createChannels(this);
 
         // Get time from intent or icicle
         long timeMillis = -1;
@@ -298,7 +298,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
 
         if (DEBUG) {
             if (icicle != null && intent != null) {
-                Log.d(TAG, "both, icicle:" + icicle.toString() + "  intent:" + intent.toString());
+                Log.d(TAG, "both, icicle:" + icicle + "  intent:" + intent);
             } else {
                 Log.d(TAG, "not both, icicle:" + icicle + " intent:" + intent);
             }
@@ -420,8 +420,8 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
 
     private void checkAndRequestDisablingDoze() {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) return;
-
-        if (!dozeDisabled()) {
+        boolean doNotCheckBatteryOptimization = Utils.getSharedPreference(getApplicationContext(), GeneralPreferences.KEY_DO_NOT_CHECK_BATTERY_OPTIMIZATION, false);
+        if (!dozeDisabled() && !doNotCheckBatteryOptimization) {
             Intent intent = new Intent();
             intent.setAction(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
             intent.setData(Uri.parse("package:" + getApplicationContext().getPackageName()));
@@ -897,7 +897,8 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         Utils.setTodayIcon(icon, this, mTimeZone);
 
         // Handle warning for disabling battery optimizations
-        if (dozeDisabled()) {
+        boolean doNotCheckBatteryOptimization = Utils.getSharedPreference(getApplicationContext(), GeneralPreferences.KEY_DO_NOT_CHECK_BATTERY_OPTIMIZATION, false);
+        if (dozeDisabled() || doNotCheckBatteryOptimization) {
             MenuItem menuInfoItem = menu.findItem(R.id.action_info);
             if (menuInfoItem != null) {
                 menuInfoItem.setVisible(false);
