@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67321458_30dfa024",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-09-05T05:37:06Z",
+      "side": 1,
+      "message": "Adapted from https://github.com/Etar-Group/Etar-Calendar/pull/1741. BuildConfig value doesn\u0027t needs to be updated I believe as it isn\u0027t shown to users on our fork.",
+      "revId": "5d03ff6904b3e27fdcb75828193d25bf04121a47",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
