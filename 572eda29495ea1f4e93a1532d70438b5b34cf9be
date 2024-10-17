@@ -16,6 +16,23 @@
       "message": "Status bar is no longer colored and that\u0027s an Android 15 change",
       "revId": "572eda29495ea1f4e93a1532d70438b5b34cf9be",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7f04f83_e5b93f58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-10-17T12:39:50Z",
+      "side": 1,
+      "message": "Thanks Aayush, I know this was a pain. calyxos#2765 is fixed.",
+      "revId": "572eda29495ea1f4e93a1532d70438b5b34cf9be",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
