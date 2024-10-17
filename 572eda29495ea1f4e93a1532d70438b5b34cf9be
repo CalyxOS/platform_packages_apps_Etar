@@ -33,6 +33,23 @@
       "message": "Thanks Aayush, I know this was a pain. calyxos#2765 is fixed.",
       "revId": "572eda29495ea1f4e93a1532d70438b5b34cf9be",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24f38b82_e2c2e4c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-17T23:46:57Z",
+      "side": 1,
+      "message": "Going with this to save time of setting up prebuilt gradle apk + testing it.",
+      "revId": "572eda29495ea1f4e93a1532d70438b5b34cf9be",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
