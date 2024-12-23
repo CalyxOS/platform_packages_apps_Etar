@@ -1,9 +1,5 @@
 package com.android.calendar;
 
-import static androidx.core.view.WindowInsetsCompat.Type.displayCutout;
-import static androidx.core.view.WindowInsetsCompat.Type.ime;
-import static androidx.core.view.WindowInsetsCompat.Type.systemBars;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -352,7 +348,8 @@ public class DynamicTheme {
         WindowCompat.setDecorFitsSystemWindows(window, false);
         ViewCompat.setOnApplyWindowInsetsListener(rootView,
             (v, windowInsets) -> {
-                Insets insets = windowInsets.getInsets(systemBars() | displayCutout() | ime());
+                Insets insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars() |
+                        WindowInsetsCompat.Type.displayCutout());
                 v.setPadding(insets.left, insets.top, insets.right, insets.bottom);
                 return WindowInsetsCompat.CONSUMED;
             });
