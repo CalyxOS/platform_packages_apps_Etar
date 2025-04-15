@@ -23,14 +23,14 @@
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(sem título)</string>
     <string name="no_reminder_label">Nenhum</string>
-    <string name="no_snooze_label">Nenhum</string>
+    <string name="no_snooze_label">Nenhuma</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutos</item>
     </plurals>
     <plurals name="Nmins">
         <item quantity="one">1 min</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> mins</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="one">1 hora</item>
@@ -69,7 +69,7 @@
     <string name="view_settings">"Ver configurações"</string>
     <string name="select_synced_calendars_button">Calendários para sincronizar</string>
     <string name="hint_what">"Nome do evento"</string>
-    <string name="hint_where">"Local"</string>
+    <string name="hint_where">"Localização"</string>
     <string name="hint_description">"Descrição"</string>
     <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Convidados"</string>
@@ -85,7 +85,7 @@
     <string name="alert_title">Notificações do calendário</string>
     <string name="foreground_notification_title">Agendando novos lembretes…</string>
     <string name="foreground_notification_channel_name">Tarefas em segundo plano</string>
-    <string name="foreground_notification_channel_description">Notificações necessárias para sincronização interna. Você pode ocultar este canal sem preocupações.</string>
+    <string name="foreground_notification_channel_description">Notificações necessárias para sincronização interna. Você pode ocultar este canal com segurança.</string>
     <string name="event_info_title">Visualizar evento</string>
     <string name="event_info_title_invite">Convite para reunião</string>
     <string name="edit_event_all_day_label">Dia inteiro</string>
@@ -98,7 +98,7 @@
     <string name="add_calendar">Adicionar calendário</string>
     <string name="view_event_calendar_label">Calendário:</string>
     <string name="view_event_organizer_label">Organizador:</string>
-    <string name="choose_event_color_label">Escolher a cor do evento</string>
+    <string name="choose_event_color_label">Selecionar a cor do evento</string>
     <string name="event_color_picker_dialog_title">Cor do evento</string>
     <string name="event_color_set_to_default">Definir para cor padrão do calendário</string>
     <string name="calendar_color_picker_dialog_title">Cor do calendário</string>
@@ -117,7 +117,7 @@
     <string name="quick_response_settings">Respostas rápidas</string>
     <string name="quick_response_settings_summary">Editar respostas padrão quando enviar e-mails para os convidados</string>
     <string name="quick_response_settings_edit_title">Resposta rápida</string>
-    <string name="quick_response_dialog_title">Escolher resposta rápida</string>
+    <string name="quick_response_dialog_title">Selecionar resposta rápida</string>
     <string name="quick_response_email_failed">Não foi possível encontrar um programa de email</string>
     <string-array name="quick_response_defaults">
         <item>Running just a couple of minutes late.</item>
